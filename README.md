@@ -11,8 +11,10 @@ Android SDK に含まれる Android Emulator には、現時点では
 具体的には、HTTP CONNECT メソッドに対し、1行以上ヘッダを返す
 ような Proxy サーバの場合です。
 
-本バグは Issue 75221 として AOSP に報告済みで、一部はパッチ
-が取り込まれていますが、すべての修正はまだ取り込まれていません。
+本バグは
+[Issue 75221](https://code.google.com/p/android/issues/detail?id=75221)
+として AOSP に報告済みで、一部はパッチが取り込まれていますが、
+すべての修正はまだ取り込まれていません。
 
 本 Emulator は、この不具合を修正し、ビルドしたものです。
 
