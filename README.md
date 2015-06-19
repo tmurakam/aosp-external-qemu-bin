@@ -60,12 +60,13 @@ https://github.com/tmurakam/aosp-external-qemu
 自分でビルドする場合は以下のようにしてください。
 
 1. Android Open Source Project から repo を使ってソースを取得。
-   この際、'master' ブランチを取得してください。
-   (現時点で、本修正は master ブランチに入っているため)
+   'studio-master-dev' ブランチを取得してください。
+   ただし、external/qemu だけは 'master'ブランチを取得してください。
+   (現時点で本パッチは master ブランチにしか入っていないため)。
    詳細は http://tools.android.com/build を参照。
 
 2. external/qemu に移動して ./android-rebuild.sh を実行。
-   詳細は docs/BUILDING.txt を参照。
+   詳細は docs/DEVELOPMENT.TXT を参照。
 
 Mac OS X でビルドする場合は、Xcode 5 が必要です。
 Xcode 6 ではビルドできませんので、iOS Dev Center から Xcode 5 を
